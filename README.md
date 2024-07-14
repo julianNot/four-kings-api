@@ -52,11 +52,10 @@ GET https://four-kings-api-vkd3cyhhnq-uc.a.run.app/api/all
 ```
 
 ### Insertar Datos
+* Ruta protegida, es necesario agregar el Header de Authorization y el token obtenido al iniciar sesión
 ```
 POST https://four-kings-api-vkd3cyhhnq-uc.a.run.app/api/tables
 {
   "Tabla": "A"
 }
-Authorization: TOKEN_LOGIN
-
 ```
